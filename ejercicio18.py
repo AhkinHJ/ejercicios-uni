@@ -1,5 +1,5 @@
+# Ejercicio 18: Tabla de registro y salida con calculo del importe
 #Variables
-#Ejemplo de tabla (Espacio, Placa, Tipo, Entrada, Salida, Permanencia, Importe)
 tabla = [
     [1, "LIBRE", "LIBRE", 0, 0, 0, 0],
     [2, "LIBRE", "LIBRE", 0, 0, 0, 0],
@@ -18,6 +18,8 @@ importe = 0.0 #float
 tarifa = 0 #int
 op = 1 #int
 encontrado = 0 #int
+i = 0 #int
+j = 0 #int
 #Codigo
 while op != 0:
     op = int(input("\nIngrese una opcion:\n1. Ver tabla del estacionamiento\n2. Registrar un vehiculo\n3. Salida de un vehiculo\n0. Salir.\n"))
@@ -91,4 +93,4 @@ while op != 0:
             print("Saliendo...")
         case _:
             print("Opcion no valida.")
-
+#:D

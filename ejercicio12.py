@@ -1,10 +1,11 @@
+# Ejercicio 12: Menu para registrar y sacar vehiculos (15 espacios)
 #Variables
 lisvehi = [] #list
 vehiculos = 0 #int
 matricula = "" #string
 flg = 1 #int
 op = 0 #int
-
+i = 0 #int
 #Codigo
 while flg == 1:
     print("Bienvenido al estacionamiento")
@@ -50,3 +51,4 @@ while flg == 1:
             print("Gracias por usar el estacionamiento")
         case _:
             print("Opcion no valida")
+#:D

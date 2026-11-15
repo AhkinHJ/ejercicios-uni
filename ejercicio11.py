@@ -1,6 +1,7 @@
+# Ejercicio 11: Busca una matricula en el historial de vehiculos
 #Variables
 matricula = "" #string
-tipov = 0 #int 
+tipov = 0 #int
 horas = 0 #int
 minutos = 0 #int
 flag = 1 #int
@@ -16,7 +17,7 @@ listplacas = [] #list
 encontrada = 0 #int
 posicion = 0 #int
 i = 0 #int
-
+buscada = "" #string
 #Codigo
 while flag == 1:
     matricula = (input("Ingrese la matricula del vehiculo: "))

@@ -1,6 +1,7 @@
+# Ejercicio 9: Controla la capacidad del estacionamiento (30 espacios)
 #Variables
 matricula = "" #string
-tipov = 0 #int 
+tipov = 0 #int
 horas = 0 #int
 minutos = 0 #int
 flag = 1 #int
@@ -12,7 +13,6 @@ camiones = 0 #int
 recaudacion = 0.0 #float
 pago = 0.0 #float
 fl = 1 #int
-
 #Codigo
 while flag == 1:
     matricula = (input("Ingrese la matricula del vehiculo: "))

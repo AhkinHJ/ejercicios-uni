@@ -1,5 +1,5 @@
+# Ejercicio 17: Registra placas en una matriz y consulta su ubicacion
 #Variables
-#Ejemplo de matriz
 espaesta = [
     ["ABC123","LIBRE","XYZ456"],
     ["LIBRE","DEF789","LIBRE"],
@@ -13,6 +13,8 @@ placa = "" #string
 placabus = "" #string
 op = 1 #int
 encontrado = 0 #int
+i = 0 #int
+j = 0 #int
 #Codigo
 while op != 0:
     op = int(input("\nIngrese una opcion:\n1. Ver distribucion del estacionamiento\n2. Registrar un vehiculo\n3. Consultar ubicacion de una placa\n0. Salir.\n"))
@@ -45,3 +47,4 @@ while op != 0:
             print("Saliendo...")
         case _:
             print("Opcion no valida.")
+#:D

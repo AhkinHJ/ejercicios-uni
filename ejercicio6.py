@@ -1,3 +1,4 @@
+# Ejercicio 6: Calcula el pago segun el tipo de vehiculo
 #Variables
 tipc = 0 #int
 horas = 0 #int

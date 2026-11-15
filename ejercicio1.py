@@ -1,5 +1,6 @@
+# Ejercicio 1: Registra los datos de un vehiculo (placa, propietario y hora de entrada)
 #Variables
-placa = "" #string 
+placa = "" #string
 nombre = "" #string
 hora = 0 #int
 minuto = 0 #int

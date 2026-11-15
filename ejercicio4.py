@@ -1,3 +1,4 @@
+# Ejercicio 4: Calcula el pago segun el rango de horas de permanencia
 #Variables
 hora = 0 #int
 minutos = 0 #int

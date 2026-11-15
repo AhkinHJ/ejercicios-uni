@@ -1,3 +1,4 @@
+# Ejercicio 5: Aplica un 10% de descuento si el vehiculo tiene mas de 10 visitas
 #Variables
 pago = 0.0 #float
 visitas = 0 #int

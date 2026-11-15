@@ -1,6 +1,7 @@
+# Ejercicio 8: Cuenta los vehiculos por tipo y la recaudacion total
 #Variables
 matricula = "" #string
-tipov = 0 #int 
+tipov = 0 #int
 horas = 0 #int
 minutos = 0 #int
 flag = 1 #int
@@ -10,6 +11,7 @@ motos = 0 #int
 camionetas = 0 #int
 camiones = 0 #int
 recaudacion = 0.0 #float
+pago = 0.0 #float
 #Codigo
 while flag == 1:
     matricula = (input("Ingrese la matricula del vehiculo: "))

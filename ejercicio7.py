@@ -1,9 +1,11 @@
+# Ejercicio 7: Registra vehiculos en bucle y calcula el pago por tipo
 #Variables
 matricula = "" #string
-tipov = 0 #int 
+tipov = 0 #int
 horas = 0 #int
 minutos = 0 #int
 flag = 1 #int
+pago = 0.0 #float
 #Codigo
 while flag == 1:
     matricula = (input("Ingrese la matricula del vehiculo: "))

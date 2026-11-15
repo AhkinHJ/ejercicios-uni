@@ -1,4 +1,5 @@
-#variables
+# Ejercicio 16: Encuentra la fila con mayor cantidad de vehiculos
+#Variables
 espaesta = [
     [0,1,0,0,1],
     [1,0,0,1,0],
@@ -11,6 +12,8 @@ filmay = 0 #int
 mayocup = 0 #int
 ocupados = 0 #int
 libres = 0 #int
+i = 0 #int
+j = 0 #int
 #Codigo
 for i in range(fila):
     ocupados = 0
@@ -22,4 +25,5 @@ for i in range(fila):
     if ocupados > mayocup:
         mayocup = ocupados
         filmay = i + 1
-print("\nLa fila con mayor cantidad de vehiculos es la fila ", filmay, " con ", mayocup, " vehiculos.") 
+print("\nLa fila con mayor cantidad de vehiculos es la fila ", filmay, " con ", mayocup, " vehiculos.")
+#:D

@@ -1,4 +1,5 @@
-#Variables 
+# Ejercicio 3: Calcula el pago por el tiempo de estacionamiento ($15 por hora)
+#Variables
 horas = 0 #int
 minutos = 0 #int
 pago = 0.0 #float

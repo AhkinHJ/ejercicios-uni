@@ -1,6 +1,7 @@
+# Ejercicio 10: Guarda las matriculas de los vehiculos en una lista
 #Variables
 matricula = "" #string
-tipov = 0 #int 
+tipov = 0 #int
 horas = 0 #int
 minutos = 0 #int
 flag = 1 #int
@@ -13,7 +14,6 @@ recaudacion = 0.0 #float
 pago = 0.0 #float
 fl = 1 #int
 listplacas = [] #list
-
 #Codigo
 while flag == 1:
     matricula = (input("Ingrese la matricula del vehiculo: "))

@@ -1,5 +1,5 @@
+# Ejercicio 19: Reporte completo de la jornada del estacionamiento
 #Variables
-#Ejemplo de tabla (Espacio, Placa, Tipo, Entrada, Salida, Permanencia, Importe)
 tabla = [
     [1, "LIBRE", "LIBRE", 0, 0, 0, 0],
     [2, "LIBRE", "LIBRE", 0, 0, 0, 0],
@@ -22,6 +22,16 @@ vehatendidos = 0 #int
 recaudacion = 0.0 #float
 tipos = [0, 0, 0, 0] #list
 ocup_fila = [0, 0, 0] #list
+i = 0 #int
+j = 0 #int
+dentro = [] #list
+libres = 0 #int
+ocupados = 0 #int
+nombres = [] #list
+mayortipo = 0 #int
+tipomayor = 0 #int
+mayorfila = 0 #int
+filamayor = 0 #int
 #Codigo
 while op != 0:
     op = int(input("\nIngrese una opcion:\n1. Ver tabla del estacionamiento\n2. Registrar un vehiculo\n3. Salida de un vehiculo\n0. Salir.\n"))
@@ -142,4 +152,4 @@ if mayorfila == 0:
     print("Fila con mayor ocupacion: Ninguna")
 else:
     print("Fila con mayor ocupacion: fila ", filamayor, " con ", mayorfila, " ocupaciones.")
-
+#:D
