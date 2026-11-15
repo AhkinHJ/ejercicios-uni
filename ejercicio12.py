@@ -3,7 +3,6 @@ lisvehi = [] #list
 vehiculos = 0 #int
 matricula = "" #string
 flg = 1 #int
-salida = "" #string
 op = 0 #int
 
 #Codigo
@@ -30,12 +29,11 @@ while flg == 1:
                 print("No hay vehiculos en el estacionamiento")
             else:
                 matricula = input("Ingrese la matricula del vehiculo a salir: ")
-                if matricula in lisvehi:
-                    lisvehi.remove(matricula)
-                    vehiculos -= 1
-                    print("Vehiculo retirado con exito")
-                else:
-                    print("Ese vehiculo no se encuentra registrado")
+                for i in range(len(lisvehi)):
+                    if lisvehi[i] == matricula:
+                        lisvehi.pop(i)
+                        vehiculos -= 1
+                        print("Vehiculo retirado con exito")
         case 3:
             if vehiculos == 0:
                 print("No hay vehiculos en el estacionamiento")
